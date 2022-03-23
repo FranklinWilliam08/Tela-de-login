@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('img\ natureza.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button{
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: rgb(180, 8, 8);
+}
+
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    width: 400px;
+    height: 550px;
+    border-radius:50px;
+    gap: 1rem;
+    background-color: rgba(0,0,0, 0.75);
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login-box{
+    margin-top: 20px;
+}
+
+.login-box h2{
+    color:#fff;
+    font-size: 32px;
+    text-align: center;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+    height: 220px;
+}
+
+.form-login input{
+
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
